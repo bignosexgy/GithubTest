@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\HARDWARE\MY-GPIO -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\HT1621 -I..\HARDWARE\EXTI -I..\HARDWARE\BASIC -I..\HARDWARE\RTC -I..\HARDWARE\TIMER 
+-I d:\Keil\ARM\RV31\INC 
+-I d:\Keil\ARM\CMSIS\Include 
+-I d:\Keil\ARM\Inc\ST\STM32F10x 
+-DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o "ht1621.o" --omf_browse "ht1621.crf" --depend "ht1621.d" "..\HARDWARE\HT1621\HT1621.C"

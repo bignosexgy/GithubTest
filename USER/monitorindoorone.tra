@@ -1,0 +1,59 @@
+*** Creating Trace Output File 'monitorindoorone.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\startup_stm32f10x_hd.o"'
+### List of Objects: adding '"stm32f10x_it.o"'
+### List of Objects: adding '"system_stm32f10x.o"'
+### List of Objects: adding '"main_v1.0.o"'
+### List of Objects: adding '"delay.o"'
+### List of Objects: adding '"sys.o"'
+### List of Objects: adding '"usart.o"'
+### List of Objects: adding '"diskio.o"'
+### List of Objects: adding '"adc.o"'
+### List of Objects: adding '"flash.o"'
+### List of Objects: adding '"gpio.o"'
+### List of Objects: adding '"rtc.o"'
+### List of Objects: adding '"task.o"'
+### List of Objects: adding '"timer.o"'
+### List of Objects: adding '"spi.o"'
+### List of Objects: adding '"crc.o"'
+### List of Objects: adding '"ec808.o"'
+### List of Objects: adding '"sht21.o"'
+### List of Objects: adding '"spi_flash.o"'
+### List of Objects: adding '"key.o"'
+### List of Objects: adding '"i2c.o"'
+### List of Objects: adding '"vcnl4000.o"'
+### List of Objects: adding '"oled.o"'
+### List of Objects: adding '"ht1632.o"'
+### List of Objects: adding '"6658spi.o"'
+### List of Objects: adding '"core_cm3.o"'
+### List of Objects: adding '"misc.o"'
+### List of Objects: adding '"stm32f10x_adc.o"'
+### List of Objects: adding '"stm32f10x_bkp.o"'
+### List of Objects: adding '"stm32f10x_dma.o"'
+### List of Objects: adding '"stm32f10x_exti.o"'
+### List of Objects: adding '"stm32f10x_flash.o"'
+### List of Objects: adding '"stm32f10x_gpio.o"'
+### List of Objects: adding '"stm32f10x_i2c.o"'
+### List of Objects: adding '"stm32f10x_iwdg.o"'
+### List of Objects: adding '"stm32f10x_pwr.o"'
+### List of Objects: adding '"stm32f10x_rcc.o"'
+### List of Objects: adding '"stm32f10x_rtc.o"'
+### List of Objects: adding '"stm32f10x_spi.o"'
+### List of Objects: adding '"stm32f10x_tim.o"'
+### List of Objects: adding '"stm32f10x_usart.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\startup_stm32f10x_hd.o" "stm32f10x_it.o" "system_stm32f10x.o" "main_v1.0.o" "delay.o" "sys.o" "usart.o" "diskio.o" "adc.o" "flash.o" "gpio.o" "rtc.o" "task.o" "timer.o" "spi.o" "crc.o" "ec808.o" "sht21.o" "spi_flash.o" "key.o" "i2c.o" "vcnl4000.o" "oled.o" "ht1632.o" "6658spi.o" "core_cm3.o" "misc.o" "stm32f10x_adc.o" "stm32f10x_bkp.o" "stm32f10x_dma.o" "stm32f10x_exti.o" "stm32f10x_flash.o" "stm32f10x_gpio.o" "stm32f10x_i2c.o" "stm32f10x_iwdg.o" "stm32f10x_pwr.o" "stm32f10x_rcc.o" "stm32f10x_rtc.o" "stm32f10x_spi.o" "stm32f10x_tim.o" "stm32f10x_usart.o" --strict --scatter "monitorindoorone.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\monitorindoorone.map" -o "monitorindoorone.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'monitorindoorone.axf'
+### ADS-LD Command File: 'monitorindoorone.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'monitorindoorone.lnp', Handle=0x0000018C
+### Writing '.lnp' file
+### ADS-LD Command file 'monitorindoorone.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

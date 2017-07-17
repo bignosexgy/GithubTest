@@ -1,0 +1,4 @@
+--cpu Cortex-M3 ".\startup_stm32f10x_hd.o" "stm32f10x_it.o" "system_stm32f10x.o" "main_v1.0.o" "delay.o" "sys.o" "usart.o" "diskio.o" "adc.o" "flash.o" "gpio.o" "rtc.o" "task.o" "timer.o" "spi.o" "crc.o" "ec808.o" "sht21.o" "spi_flash.o" "key.o" "i2c.o" "vcnl4000.o" "oled.o" "ht1632.o" "6658spi.o" "core_cm3.o" "misc.o" "stm32f10x_adc.o" "stm32f10x_bkp.o" "stm32f10x_dma.o" "stm32f10x_exti.o" "stm32f10x_flash.o" "stm32f10x_gpio.o" "stm32f10x_i2c.o" "stm32f10x_iwdg.o" "stm32f10x_pwr.o" "stm32f10x_rcc.o" "stm32f10x_rtc.o" "stm32f10x_spi.o" "stm32f10x_tim.o" "stm32f10x_usart.o" --strict --scatter "monitorindoorone.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\monitorindoorone.map" -o "monitorindoorone.axf"

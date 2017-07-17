@@ -1,0 +1,1 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\USER -I..\CORE -I..\HARDWARE -I..\STM32F10x_FWLib -I..\SYSTEM -I..\USER -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\ST\STM32F10x" -o "adc2.o" --omf_browse "adc2.crf" --depend "adc2.d" "..\HARDWARE\ADC\adc2.c"
